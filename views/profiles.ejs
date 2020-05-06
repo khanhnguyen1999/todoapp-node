@@ -1,0 +1,21 @@
+<%- include ('partials/header.ejs') -%>
+<div class="header">
+    <h1 style="margin:auto;">Profiles</h1>
+  </div>
+<div class="contact-card">
+    <div class="contact-card__header-image">
+      <div class="contact-card__avatar"></div>
+    </div>
+      <p class="contact-card__name"><%= currentUser.displayName %></p>
+    <ul>
+      <li class="contact-card__link contact-card__link--email"><a title="Email Callum Brown" href="mailto:">&#128241 <%= currentUser.mail%></a></li>
+      <li class="contact-card__link contact-card__link--mobile"><a title="Call Callum Brown" href="tel:">&#128231 <%= currentUser.phone %></a></li>
+    </ul>
+      <ul class="contact-card__footer">
+      <li class="contact-card__footer__link contact-card__footer__link--twitter"><a title="Link to Twitter profile" href="twitter.com/KhanhNguyen0599"><i class="fa fa-twitter"></i></a></li>
+      <li class="contact-card__footer__link contact-card__footer__link--linkedin"><a title="Link to LinkedIn profile" href="www.linkedin.com/in/KhanhNguyen0599"><i class="fa fa-linkedin"></i></a></li>
+      <li class="contact-card__footer__link contact-card__footer__link--codepen"><a title="Link to fb profile" href="https://fb.com/nguyenphuockhanhk17"><i class="fa fa-facebook-f"></i></a></li>
+      <li class="contact-card__footer__link contact-card__footer__link--dribbble"><a title="Link to ins profile" href="https://www.instagram.com/1m81.99/"><i class="fa fa-instagram"></i></a></li>
+      </ul>
+  </div>
+</body>
